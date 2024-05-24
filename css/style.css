@@ -11,6 +11,13 @@ body {
     height: 300px;
 }
 
+.ork_cat_photo {
+    background: url("../image/cat-ork2.jpg") no-repeat center center;
+    background-size: 100%;
+    width: 400px;
+    height: 400px;
+}
+
 .nav_logo {
     background: url(../image/logo.jpg) no-repeat center center;
     background-size: 100%;
@@ -45,4 +52,19 @@ body {
 }
 .title_photo {
     text-align: center;
+}
+
+#myButton {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #a30f0f;
+    color: white;
+    font-weight: bold;
+}
+
+#demo img {
+    margin-top: 20px;
+    width: 75%;
 }
